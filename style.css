@@ -1,0 +1,132 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+ 
+}
+header{
+    background-image: url('martian.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main{
+    background-image: url('Mars_Hubble.jpg')
+}
+h1{
+    text-align: center;
+   
+}
+/*Зроби цей сайт красивим 😉*/
+ h2{
+    text-align: center;
+    background-image: url('https://gemini.google.com/share/5413691266bf');
+     color: rgb(8, 8, 8);
+}
+li{
+    font-weight: bold;
+   color: white
+
+}
+h1, h2{
+    color: white;
+}
+
+.mission{
+color: white;
+}
+.sound{
+  color: white;  
+
+}
+.picture {
+    margin-top: 10px;
+    gap: 10px;
+}
+div{
+    display: flex;
+    font-weight: bold;
+}
+b{
+    color: black;
+}
+.red{
+    text-align: center;
+}
+.cards{
+    padding: 5px;
+}
+.cards img{
+    width: 250px;
+    height: 205px;
+}
+.card1 img{
+    display: block;
+}
+.card1{
+   
+    
+    
+}
+.orange{
+    text-align: center;
+}
+.yellow{
+    text-align: center;
+}
+p::first-letter{
+    font-size: 30px;
+}
+p{
+    color: white;
+}
+
+section{
+    padding: 10px;
+}
+
+
+.container{
+   padding: 10px;
+}
+.animation{
+    animation: move 2s infinite;
+}
+@keyframes move{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200PX);
+    }
+     from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-200px);
+    }
+    
+}
+button{
+    color: white;
+    padding: 20px;
+   background: #ffa600;
+background: linear-gradient(90deg, rgba(255, 166, 0, 1) 0%, rgba(0, 0, 0, 1) 50%);
+box-shadow: 6px -3px 60px 0px rgba(255, 136, 0, 1.00);
+border-radius: 50px;
+}
+button:hover{
+ box-shadow: 10px -3px 100px 0px rgba(255, 136, 0, 1.00);
+}
+.knopka{
+    text-align: center;
+}
+footer{
+    background-color:green;
+}
+.BY{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
